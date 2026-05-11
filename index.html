@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo - Feane Food – Modern Bootstrap 4 Restaurant Template</title>
+
+    <link rel="stylesheet" href="https://codelayouts.com/assets/css/show_demo.css">
+
+    <!-- تكبير الخط وخلي العناصر تملى الشاشة ف الموبايل -->
+    <style>
+
+        body{
+            font-size: 22px;
+        }
+
+        /* يكبر كل الخطوط */
+        *{
+            font-size: 1.1em;
+        }
+
+        /* يخلي العنصر ياخد الصفحة كاملة */
+        .preview-container,
+        .iframe-wrapper,
+        #demoFrame{
+            width: 100%;
+            height: 100vh;
+        }
+
+        /* للموبايل */
+        @media(max-width:768px){
+
+            .iframe-wrapper{
+                width: 100% !important;
+                height: 100vh !important;
+            }
+
+            #demoFrame{
+                width: 100% !important;
+                height: 100vh !important;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="preview-container">
+        <div class="iframe-wrapper desktop" id="iframeWrapper">
+            <iframe id="demoFrame" src="https://themewagon.github.io/feane/" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <script src="https://codelayouts.com/assets/js/show_demo.js"></script>
+
+    <script>
+        // UWAGA: Linki powrotne są teraz oparte na slugu, a nie na ID
+
+        function downloadTemplate() {
+            window.location.href = 'https://codelayouts.com/template/feane-delight-modern-bootstrap-4-restaurant-template';
+        }
+
+        function closeDemo() {
+            window.location.href = 'https://codelayouts.com/template/feane-delight-modern-bootstrap-4-restaurant-template';
+        }
+
+    </script>
+
+</body>
+</html>
